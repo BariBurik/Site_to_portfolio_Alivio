@@ -49,6 +49,9 @@ body {
 .header, .how-it-works, .about, .our-clients, .footer {
     width: 1920px;
 }
+.href {
+    text-decoration: none;
+}
 .header__menu {
     width: 1369px;
     height: 85px;
@@ -73,13 +76,8 @@ body {
     font-size: 20px;
 }
 .header__menu-nav-flex-element:nth-child(1) {
+    min-width: 100px;
     margin-right: 71px;
-}
-.header__menu-nav-flex-element:nth-child(2) {
-    margin-right: 72px;
-}
-.header__menu-nav-flex-element:nth-child(3) {
-    margin-right: 74px;
 }
 .header__menu-btns-flex {
     display: flex;
@@ -383,14 +381,7 @@ body {
     color: #FFF;
     font-family: 'Lato Semibold';
     font-size: 25px;
+}
+.footer__h4:first-child {
     margin-top: 70px;
-}
-.footer__h4:nth-child(1) {
-    margin-top: 60px;
-}
-.footer__h4:nth-child(4) {
-    margin-top: 60px;
-}
-.footer__h4:nth-child(5) {
-    margin-top: 60px;
 }
